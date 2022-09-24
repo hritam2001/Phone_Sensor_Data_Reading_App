@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sensor List"
+        android:textSize="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textselext"
+        android:layout_below="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/teal_200"
+        android:textSize="30dp"
+        android:text="Select Sensor"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="Gyroscope"
+        android:textSize="25dp"
+        android:width="300dp"
+        android:layout_below="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF8C00"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Magnetometer"
+        android:textSize="25dp"
+        android:width="300dp"
+        android:layout_below="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF8C00"/>
+    <Button
+        android:id="@+id/button4"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Ambient light sensor"
+        android:textSize="20dp"
+        android:width="300dp"
+        android:layout_below="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF8C00"/>
+    <Button
+        android:id="@+id/button5"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Proximity Sensor"
+        android:textSize="22dp"
+        android:width="300dp"
+        android:layout_below="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF8C00"/>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Temperature Sensor"
+        android:textSize="20dp"
+        android:width="300dp"
+        android:layout_below="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF8C00"/>
+    <Button
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF00AA"
+        android:text="About Developer"
+        android:textSize="25dp"
+        android:layout_below="@id/textselext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"/>
+
+
+</RelativeLayout>
